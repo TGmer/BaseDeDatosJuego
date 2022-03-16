@@ -1,0 +1,16 @@
+<div class="filters">
+    <mat-form-field>
+        <mat-label>Filtar por: </mat-label>
+        <mat-select panelClass="sort-select" [(ngModel)]="sort" >
+            <mat-option value="name">Nombre</mat-option>
+            <mat-option value="-released">Fecha de salida</mat-option>
+            <mat-option value="-added">Agregado</mat-option>
+            <mat-option value="-created">Creado</mat-option>
+            <mat-option value="-updated">Actualizado</mat-option>
+            <mat-option value="-rating">Rating</mat-option>
+            <mat-option value="metacritic">Metacritic</mat-option>
+
+        </mat-select>
+    </mat-form-field>
+
+</div>
