@@ -15,6 +15,7 @@ import { BarraBusquedaComponent } from './Componentes/barra-busqueda/barra-busqu
 import { HomeComponent } from './Componentes/home/home.component'
 import { HttpHeadersInterceptor } from './interceptores/http-headers.interceptor';
 import { HttpErrorsInterceptor } from './interceptores/http-errors.interceptor';
+import { DetallesComponent } from './Componentes/detalles/detalles.component';
 
 
 
@@ -22,7 +23,8 @@ import { HttpErrorsInterceptor } from './interceptores/http-errors.interceptor';
   declarations: [
     AppComponent,
     BarraBusquedaComponent,
-    HomeComponent
+    HomeComponent,
+    DetallesComponent
   ],
   imports: [
     BrowserModule,
